@@ -1,0 +1,51 @@
+footer {
+  background-color: #0000b2;
+}
+
+footer h6 {
+  text-align: center;
+  white-space: nowrap;
+  margin: 10px;
+}
+
+footer a {
+  color: #f9f9f9;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+#redes-sociais {
+  background-color: #010080;
+  width: 100px;
+  border-radius: 50px;
+  border: 1px solid #f9f9f9;
+  position: relative;
+  top: 5px;
+  margin-bottom: 5px;
+  margin-left: 37%;
+}
+
+#redes-sociais a {
+  margin-left: 6px;
+}
+
+@media(min-width: 490px) {
+  
+  #redes-sociais {
+    margin-left: 43%;
+    width: 150px;
+  }
+  
+  #redes-sociais i {
+    margin-left: 20px;
+  }
+  
+  #redes-sociais a {
+    font-size: 32px;
+  }
+  
+  footer h6 {
+    font-size: 20px;
+  }
+  
+}

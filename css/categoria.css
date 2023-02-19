@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+#content-categoria {
+  background-color: #0000b2;
+  padding-top: 20px;
+  border: 2px solid #f9f9f9;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#content-categoria a {
+  display: inline-block;
+  color: #f9f9f9;
+  text-align: center;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+a {
+  font-family: Righteous;
+}
+
+@media(min-width: 490px) {
+  
+  #content-categoria a {
+    font-size: 32px;
+  }
+  
+}

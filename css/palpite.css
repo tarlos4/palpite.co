@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+#content-destaque, #content-proximo, #content-evento {
+  background-color: #010080;
+  position: relative;
+  border: 2px solid #f9f9f9;
+}
+
+#content-times {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#content-times h4 {
+  display: inline-block;
+}
+
+#content-times a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-family: Righteous;
+  margin-left: 10px;
+}
+
+#content-times img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  top: 5px;
+}
+
+h3 {
+  color: #ff7301;
+  font-family: Righteous;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+@media(min-width: 490px) {
+  
+  #content-destaque, #content-proximo, #content-evento {
+    font-size: 32px;
+  }
+  
+  #content-times img {
+    width: 32px;
+    height: 32px;
+  }
+  
+}

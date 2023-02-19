@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+li, #logo {
+  text-transform: uppercase;
+  font-family: Righteous;
+  display: inline;
+  margin: 10px;
+  cursor: pointer;
+}
+
+li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+i {
+  margin-left: 15px;
+  margin-right: 5px;
+  top: 3px;
+  position: relative;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#logo a {
+  color: #ff7301;
+  top: 5px;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#content-menu {
+  background-color: #0000b2;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#content-menu a {
+  text-decoration: none;
+}
+
+@media(min-width: 490px) {
+  #content-menu li {
+    position: relative;
+  }
+  
+  #content-menu i {
+    position: relative;
+    margin-left: 35px;
+    font-size: 25px;
+    top: 10px;
+  }
+  
+  #content-menu {
+    height: 50px;
+  }
+
+  #logo {
+    position: relative;
+    margin-left: 220px;
+    top: 5px;
+    font-size: 32px;
+  }
+  
+  .ao-vivo, .entrar, .ao-vivo a, .entrar a {
+    position: relative;
+    margin-left: 10px;
+    font-size: 20px;
+    top: 2px;
+  }
+  
+  .registro, .registro a {
+    position: relative;
+    margin-left: 50px;
+    font-size: 20px;
+    top: 2px;
+  }
+  
+}
+
+@media(max-width: 490px) {
+  .registro {
+    display: none;
+  }
+}
